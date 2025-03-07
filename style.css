@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(Fonts/MinecraftRegular-Bmg3.otf);
+    font-family: Minecraft-Font;
+}
+
+body{
+
+    background-image: url("Images/WM_Start2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.WorldMineImg{
+    text-align: center;
+}
+.fa-brands.fa-discord{
+    color: blue;
+}
+aside{
+    width: 40%;
+    padding: 10px;
+    float: left;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 20px;
+}
+aside p{
+    margin: 10px;
+    font-family: Minecraft-Font;
+    font-size: 30px;
+}
+aside h1{
+    font-family: Minecraft-Font;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+aside:hover{
+    animation: grow 0.04s ease-in-out forwards;
+    box-shadow: 5px 5px 5px , -5px -5px 5px , 5px -5px 5px , -5px 5px 5px;
+}
+section{
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+article{
+    width: 40%;
+    padding: 10px;
+    float: left;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 20px;
+}
+article a{
+    margin: 10px;
+    font-family: Minecraft-Font;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+article a:hover{
+    text-decoration: underline;
+}
+article li{
+    font-family: Minecraft-Font;
+    font-size: 30px;
+    color: black;
+}
+article h1{
+    font-family: Minecraft-Font;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+article:hover{
+    animation: grow 0.04s ease-in-out forwards;
+    box-shadow: 5px 5px 5px , -5px -5px 5px , 5px -5px 5px , -5px 5px 5px;
+}
+
+@keyframes grow{
+    from{transform: scale(1)}
+    to{transform: scale(1.01,1.01);}
+}
