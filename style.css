@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(Fonts/MinecraftRegular-Bmg3.otf);
+    font-family: Minecraft-Font;
+}
+
+body{
+
+    background-image: url("Images/WM_Start2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.WorldMineImg{
+    text-align: center;
+}
+.fa-brands.fa-discord{
+    color: blue;
+}
+aside{
+    width: 40%;
+    padding: 10px;
+    float: left;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 20px;
+}
+aside p{
+    margin: 10px;
+    font-family: Minecraft-Font , sans-serif;
+    font-size: 30px;
+}
+aside h1{
+    font-family: Minecraft-Font , sans-serif;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+aside:hover{
+    animation: grow 0.04s ease-in-out forwards;
+    box-shadow: 5px 5px 5px , -5px -5px 5px , 5px -5px 5px , -5px 5px 5px;
+}
+section{
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+article{
+    width: 40%;
+    padding: 10px;
+    float: left;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 20px;
+}
+article a{
+    margin: 10px;
+    font-family: Minecraft-Font , sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+article a:hover{
+    text-decoration: underline;
+}
+article li{
+    font-family: Minecraft-Font , sans-serif;
+    font-size: 30px;
+    color: black;
+}
+article h1{
+    font-family: Minecraft-Font , sans-serif;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+article:hover{
+    animation: grow 0.04s ease-in-out forwards;
+    box-shadow: 5px 5px 5px , -5px -5px 5px , 5px -5px 5px , -5px 5px 5px;
+}
+
+@keyframes grow{
+    from{transform: scale(1)}
+    to{transform: scale(1.01,1.01);}
+}
+
+
+.Navbar ul{
+    list-style-type: none;
+    background-color: hsl(297, 100%, 75%);
+    padding:0px ;
+    margin:0px;
+    overflow: hidden;
+    
+}
+.Navbar a{
+    color: rgb(51, 90, 181);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    font-family: Minecraft-Font , sans-serif;
+    
+    
+}
+.Navbar a:hover{
+    background-color: hsl(297, 100%, 60%);
+}
+.Navbar li{
+    float: left;
+}
+.InputImageBox{
+    text-align: center;
+}
+.InputImageBox label{
+    font-family: Minecraft-Font, sans-serif;
+    font-size: 1.5em;
+}
+.InputImageBox input{
+    font-size: 1.5em;
+    font-family: Minecraft-Font, sans-serif;
+}
+.InputImageBox h1{
+    font-size: 2em;
+    font-family: Minecraft-Font, sans-serif;
+
+}
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+#imageContainer h3{
+    font-size: 2em;
+    font-family: Minecraft-Font, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 20px;
+}
+#imageContainer p{
+    font-size: 1.5em;
+    font-family: Minecraft-Font, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border-radius: 10px;
+}
+.image-card {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.image-card img {
+    width: 250;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

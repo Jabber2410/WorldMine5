@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image upload</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72b3b7aedd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ImageUpload.html">Bilder upload</a></li>
+        </ul>
+    </div>
+
+    <div class="InputImageBox">
+        <h1>Bilder upload</h1>
+        <label for="titleImage">Title des Bildes: </label>
+        <input type="text" id="titleImageInput" placeholder="Enter a title">
+        <br>
+
+        <label for="authorImage">Autor des Bildes</label>
+        <input type="text" id="authorInput" placeholder="Enter a author">
+        <br>
+
+        <label for="imageInput">Bild auswählen: </label>
+        <input type="file" id="imageInput" accept="Image/jpg , Image/jpeg">
+
+        <button onclick=loadImages()>Submit</button>
+    </div>
+
+    <h1>Bilder Galerie: </h1>
+    <div id="imageContainer">
+        
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
