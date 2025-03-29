@@ -26,70 +26,68 @@ body{
 .fa-brands.fa-discord{
     color: blue;
 }
-aside{
-    width: 40%;
-    padding: 10px;
-    float: left;
-    background-color: hsla(0, 0%, 100%, 0.623);
-    border-radius: 20px;
+h1{
+    font-family: Minecraft-Font , sans-serif;
+    margin: 10px;
+    font-size: 100px;
+    text-decoration: underline;
+    text-align: center;
 }
-aside p{
+.InformationBox{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.Information{
+    background-color: hsla(0, 0%, 100%, 0.787);
+    border-radius: 20px;
+    width: 45vw;
+}
+.Information p{
     margin: 10px;
     font-family: Minecraft-Font , sans-serif;
     font-size: 30px;
 }
-h1{
-    font-family: Minecraft-Font , sans-serif;
-    margin: 10px;
-    font-size: 40px;
-    text-decoration: underline;
-    text-align: center;
-}
-aside:hover{
-    animation: boxHover 0.04s ease-in-out forwards;
-    
-}
-section{
-    width: 20%;
-    padding: 10px;
-    float: left;
-    
-}
-article{
-    width: 40%;
-    padding: 10px;
-    float: left;
-    background-color: hsla(0, 0%, 100%, 0.787);
-    border-radius: 20px;
-}
-article a{
+.Information a{
     margin: 10px;
     font-family: Minecraft-Font , sans-serif;
     font-size: 30px;
     color: black;
     text-decoration: none;
 }
-article a:hover{
-    text-decoration: underline;
-}
-article li{
+.Information li{
     font-family: Minecraft-Font , sans-serif;
     font-size: 30px;
     color: black;
 }
-article:hover{
+.Information:hover{
     animation: boxHover 0.04s ease-in-out forwards;
 }
-
+.Information a:hover{
+    text-decoration: underline;
+}
+#MustBeBlue{
+    color: blue;
+    text-decoration: underline;
+}
 @keyframes boxHover{
     from{transform: scale(1)}
     to{transform: scale(1.01,1.01);}
     100%{box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.562), -5px -5px 5px hsla(0, 0%, 0%, 0.562) , 5px -5px 5px hsla(0, 0%, 0%, 0.562), -5px 5px 5px hsla(0, 0%, 0%, 0.562);}
 }
 @media screen and (max-width:600px) {
-    aside, section, article{
+    .Information{
         width: 100%;
+
     }
+    .InformationBox{
+        display: inline-block;
+    }
+    h1{
+        font-size: 80px;
+    }
+
 }
 
 .Navbar ul{
@@ -169,9 +167,6 @@ h3{
     font-family: Minecraft-Font , sans-serif;
     font-size: 20px;
 }
-h1{
-    font-size: 100px;
-}
 #Owner{
     color: rgba(255, 0, 0, 0.842);
 }
@@ -183,4 +178,10 @@ h1{
 }
 #Mod{
     color: blue;
+}
+.Icons{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 2px;
 }
