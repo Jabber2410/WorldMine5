@@ -76,19 +76,6 @@ h1{
     to{transform: scale(1.01,1.01);}
     100%{box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.562), -5px -5px 5px hsla(0, 0%, 0%, 0.562) , 5px -5px 5px hsla(0, 0%, 0%, 0.562), -5px 5px 5px hsla(0, 0%, 0%, 0.562);}
 }
-@media screen and (max-width:600px) {
-    .Information{
-        width: 100%;
-
-    }
-    .InformationBox{
-        display: inline-block;
-    }
-    h1{
-        font-size: 80px;
-    }
-
-}
 
 .Navbar ul{
     list-style-type: none;
@@ -184,4 +171,17 @@ h3{
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 2px;
+}
+@media screen and (max-width:600px) {
+    .Information{
+        width: 100%;
+
+    }
+    .InformationBox{
+        display: inline-block;
+    }
+    h1{
+        font-size: 80px;
+    }
+
 }
